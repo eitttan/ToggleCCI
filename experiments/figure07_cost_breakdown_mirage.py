@@ -23,7 +23,7 @@ def build_settings(continent, direction):
         "algorithm_names": ["VPN", "CCI", all_history_algo_name, monthly_algo_name, paper_algo_name],
         "dist": "constant",
         "contract_hours": 168,
-        "ski_rental_history": 730 if continent == ContinentalName.EUROPE else 168,
+        "ski_rental_history": 168,
         "lambda_interval": 1 / 730,
         "duration_mean": 168,
         "delay_hours": 72,
