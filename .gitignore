@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+experiments_output/
+results verifaction/
+.venv/
+venv/
+.idea/
